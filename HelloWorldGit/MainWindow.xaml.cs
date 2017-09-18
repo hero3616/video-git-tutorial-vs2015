@@ -10,11 +10,7 @@ namespace HelloWorldGit
         public MainWindow()
         {
             InitializeComponent();
-            btnClickMe.Click +=
-                (s, e) =>
-                {
-                    MessageBox.Show("Hello World!");
-                };
+            btnClickMe.Click += (s, e) => MessageBox.Show("Hello World!");
         }
     }
 }
