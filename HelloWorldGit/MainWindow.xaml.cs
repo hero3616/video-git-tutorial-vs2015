@@ -11,7 +11,7 @@ namespace HelloWorldGit
         {
             InitializeComponent();
             btnClickMe.Click +=
-                (object sender, RoutedEventArgs e) =>
+                (sender, e) =>
                 {
                     MessageBox.Show("Hello World!");
                 };
