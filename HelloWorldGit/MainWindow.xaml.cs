@@ -10,6 +10,12 @@ namespace HelloWorldGit
         public MainWindow()
         {
             InitializeComponent();
+            btnClickMe.Click += BtnClickMe_Click;
+        }
+
+        private void BtnClickMe_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Hello World!");
         }
     }
 }
